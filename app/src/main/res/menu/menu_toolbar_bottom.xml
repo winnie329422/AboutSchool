@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/p1"
+        android:title="AboutSchool"
+        android:icon="@drawable/ic_00"
+        android:enabled="true"
+        app:showAsAction="ifRoom"
+        />
+    <item
+        android:id="@+id/p2"
+        android:title="Department"
+        android:icon="@drawable/ic_00"
+        android:enabled="true"
+        app:showAsAction="ifRoom"
+        />
+    <item
+        android:id="@+id/p3"
+        android:title="Map"
+        android:icon="@drawable/ic_00"
+        android:enabled="true"
+        app:showAsAction="ifRoom"
+        />
+
+
+</menu>
+

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/joyce/AndroidStudioProjects/AboutSchool/app/src/main/res/drawable/background_top00.xml" value="0.13425925925925927" />
+        <entry key="..\:/Users/joyce/AndroidStudioProjects/AboutSchool/app/src/main/res/drawable/ic_00.xml" value="0.27794871794871795" />
+        <entry key="..\:/Users/joyce/AndroidStudioProjects/AboutSchool/app/src/main/res/layout/activity_home.xml" value="0.2617753623188406" />
+        <entry key="..\:/Users/joyce/AndroidStudioProjects/AboutSchool/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/joyce/AndroidStudioProjects/AboutSchool/app/src/main/res/layout/activity_view_department.xml" value="0.26614583333333336" />
+        <entry key="..\:/Users/joyce/AndroidStudioProjects/AboutSchool/app/src/main/res/layout/fragment_department.xml" value="0.2078804347826087" />
+        <entry key="..\:/Users/joyce/AndroidStudioProjects/AboutSchool/app/src/main/res/layout/fragment_home.xml" value="0.2617753623188406" />
+        <entry key="..\:/Users/joyce/AndroidStudioProjects/AboutSchool/app/src/main/res/layout/fragment_map.xml" value="0.26614583333333336" />
+        <entry key="..\:/Users/joyce/AndroidStudioProjects/AboutSchool/app/src/main/res/layout/toolbar.xml" value="0.26614583333333336" />
+        <entry key="..\:/Users/joyce/AndroidStudioProjects/AboutSchool/app/src/main/res/layout/toolbar_bottom.xml" value="0.26614583333333336" />
+        <entry key="..\:/Users/joyce/AndroidStudioProjects/AboutSchool/app/src/main/res/menu/menu_toolbar_bottom.xml" value="0.25677083333333334" />
+        <entry key="..\:/Users/joyce/AndroidStudioProjects/AboutSchool/app/src/main/res/menu/toolbar_bottom.xml" value="0.26614583333333336" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/NewStudent-master/app/src/main/res/layout/activity_main.xml" value="0.1598731884057971" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/NewStudent-master/app/src/main/res/layout/activity_map.xml" value="0.15307971014492755" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.1" />
+      </ProjectState>
+    </option>
+  </component>
+</project>
