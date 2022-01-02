@@ -11,6 +11,7 @@ import android.annotation.SuppressLint
 import android.content.pm.PackageManager
 import android.os.Build
 import androidx.annotation.RequiresApi
+import androidx.appcompat.app.AlertDialog
 import androidx.core.app.ActivityCompat
 import com.google.android.gms.location.LocationCallback
 import com.google.android.gms.location.LocationRequest
@@ -19,6 +20,12 @@ import com.google.android.gms.location.LocationServices
 import kotlinx.android.synthetic.main.activity_main.*
 import kotlinx.android.synthetic.main.activity_map.*
 import java.util.*
+import android.widget.Toast
+
+import android.content.DialogInterface
+
+
+
 
 class Map : AppCompatActivity() {
     private val NeedPermissions =
@@ -29,6 +36,24 @@ class Map : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_map)
+        var btn_insert = findViewById<Button>(R.id.btn_insert)
+        btn_insert.setOnClickListener {
+            val InsideBuilding = when{
+                d01_01.isChecked -> "資管樓"
+                d01_02.isChecked -> "商學院"
+                d01_03.isChecked -> "商學院"
+                d01_04.isChecked -> "商學院"
+                d02_01.isChecked -> "建築館"
+                d02_02.isChecked -> "室設館"
+                d02_03.isChecked -> "商設館"
+                else -> "景觀館"
+            }
+            AlertDialog.Builder(this)
+                .setTitle("此系所位在：")
+                .setMessage("$InsideBuilding")
+                .setPositiveButton("確定"){ dialog, _ -> dialog.cancel()}
+                .show()
+        }
 
 
         setup()
