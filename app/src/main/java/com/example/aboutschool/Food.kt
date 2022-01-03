@@ -10,37 +10,30 @@ import android.widget.Button
 import android.widget.ListView
 import androidx.fragment.app.Fragment
 
-class Food :Fragment() {
+class Food : AppCompatActivity() {
 
-    private lateinit var adapter: ArrayAdapter<String>
     private var items: ArrayList<String> = ArrayList()
+    private lateinit var adapter: ArrayAdapter<String>
 
 
-    override fun onCreateView(
-        inflater: LayoutInflater,
-        container: ViewGroup?,
-        savedInstanceState: Bundle?
-    ): View {
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        setContentView(R.layout.activity_food)
 
-        val view: View = inflater.inflate(R.layout.activity_food, container, false)
-
-        adapter = ArrayAdapter(requireContext(), android.R.layout.simple_list_item_1, items)
-        view?.findViewById<ListView>(R.id.listView).adapter =adapter
+        adapter = ArrayAdapter(this, android.R.layout.simple_list_item_1, items)
+        findViewById<ListView>(R.id.listView02).adapter =adapter
 
 
         setListener()
-
-        return view
-
     }
 
     private fun setListener(){
 
-        view?.findViewById<Button>(R.id.btn_random)?.setOnClickListener{
+        findViewById<Button>(R.id.btn_random).setOnClickListener{
 
         }
 
-        view?.findViewById<Button>(R.id.btn_food_road)?.setOnClickListener{
+        findViewById<Button>(R.id.btn_food_road).setOnClickListener{
 
         }
 
