@@ -24,7 +24,7 @@ class MainActivity : AppCompatActivity() {
                 R.id.p2 -> setFragment(Department())
                 R.id.p3 -> startActivity(Intent(this@MainActivity, Map::class.java))
 
-    //                R.id.p4 -> setFragment(ProfileFragment())
+                R.id.p4 -> setFragment(Food())
             }
             true
         })
