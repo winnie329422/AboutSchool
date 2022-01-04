@@ -104,7 +104,7 @@ class Map : AppCompatActivity() {
             d01_04.isChecked -> "$SomeoneLocation&destination=24.957682531605716, 121.24353029667215"
             d02_01.isChecked -> "$SomeoneLocation&destination=24.956148388743816, 121.24346169667218"
             d02_02.isChecked -> "$SomeoneLocation&destination=24.955987567232828, 121.24496801178871"
-            d02_03.isChecked -> "$SomeoneLocation&destination=24.955987567232828, 121.24496801178871"
+            d02_03.isChecked -> "$SomeoneLocation&destination=24.956969799197083, 121.24389860937195"
             else -> "$SomeoneLocation&destination=24.955987567232828, 121.24496801178871"
         }
         val url = Uri.parse(
