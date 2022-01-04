@@ -36,9 +36,8 @@ class Food : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_food)
 
-        adapter = ArrayAdapter(this, android.R.layout.simple_list_item_1, items)
-        findViewById<ListView>(R.id.listView02).adapter =adapter
-
+//        adapter = ArrayAdapter(this, android.R.layout.simple_list_item_1, items)
+//        findViewById<ListView>(R.id.listView02).adapter =adapter
 
 //        setListener()
         setup()
