@@ -14,9 +14,6 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.Light.NoActionBar">
         <activity
-            android:name=".Test"
-            android:exported="false" />
-        <activity
             android:name=".Map"
             android:exported="false" />
         <activity
