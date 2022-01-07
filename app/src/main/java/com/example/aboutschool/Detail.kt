@@ -12,7 +12,7 @@ class Detail : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = ActivityDetailBinding.inflate(LayoutInflater.from(this))
-        setContentView(R.layout.activity_detail)
+        setContentView(binding.root)
 
         val name = intent.getStringExtra("name")
         val imageId =intent.getIntExtra("imageId",R.drawable.d02)
