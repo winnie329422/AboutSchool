@@ -36,7 +36,7 @@
         android:lineHeight="50dp"
         android:layout_marginTop="20dp"
         android:text="中原大學之建校，本基督愛世之忱，\n以信、以望、以愛，致力於中國之高等教育，\n旨在追求真知力行，以傳啟文化、服務人類。"
-        android:textSize="18sp"
+        android:textSize="16sp"
         android:textColor="@color/c1"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

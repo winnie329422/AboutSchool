@@ -202,11 +202,11 @@
                         android:layout_width="120dp"
                         android:layout_height="120dp"
                         android:scaleType="centerCrop"
-                        android:src="@drawable/ddd04"/>
+                        android:src="@drawable/ddd06"/>
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="設計學院"
+                        android:text="法學院"
                         android:textSize="16sp"
                         android:textStyle="bold"
                         android:padding="6dp"
@@ -252,8 +252,8 @@
 
             </androidx.cardview.widget.CardView>
 
-
             <androidx.cardview.widget.CardView
+                android:id="@+id/card_06"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_row="2"
@@ -276,11 +276,11 @@
                         android:layout_width="120dp"
                         android:layout_height="120dp"
                         android:scaleType="centerCrop"
-                        android:src="@drawable/ddd06"/>
+                        android:src="@drawable/ddd04"/>
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="法學院"
+                        android:text="設計學院"
                         android:textSize="16sp"
                         android:textStyle="bold"
                         android:padding="6dp"
@@ -289,6 +289,7 @@
                 </LinearLayout>
 
             </androidx.cardview.widget.CardView>
+
 
             <androidx.cardview.widget.CardView
                 android:layout_width="0dp"

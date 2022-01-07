@@ -41,6 +41,12 @@ public class Department : Fragment() {
             startActivity(intent)
         }
 
+        val card_Intent2 = view?.findViewById<CardView>(R.id.card_06)
+        card_Intent2?.setOnClickListener{
+            val intent =Intent(requireContext(),ViewDepartmentActivity2::class.java)
+            startActivity(intent)
+        }
+
         return view
     }
 
