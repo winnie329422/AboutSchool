@@ -6,4 +6,37 @@
     android:layout_height="match_parent"
     tools:context=".ViewDepartmentActivity">
 
+   <FrameLayout
+       android:id="@+id/frameLayout2"
+       android:layout_width="match_parent"
+       android:layout_height="70dp"
+       android:background="@drawable/background_white"
+       app:layout_constraintEnd_toEndOf="parent"
+       app:layout_constraintStart_toStartOf="parent"
+       app:layout_constraintTop_toTopOf="parent" />
+
+
+   <TextView
+       android:id="@+id/txt_ins"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="商 學 院"
+       android:textSize="28sp"
+       android:textColor="#004F87"
+       android:textStyle="bold"
+       android:layout_marginTop="18dp"
+       app:layout_constraintStart_toStartOf="parent"
+       app:layout_constraintEnd_toEndOf="parent"
+       app:layout_constraintTop_toTopOf="parent"/>
+
+   <ListView
+       android:id="@+id/listView"
+       android:layout_width="match_parent"
+       android:layout_height="0dp"
+       app:layout_constraintEnd_toEndOf="parent"
+       app:layout_constraintStart_toStartOf="parent"
+       app:layout_constraintTop_toBottomOf="@+id/txt_ins"
+       tools:listitem="@layout/list_item"
+       android:layout_marginTop="20dp"/>
+
 </androidx.constraintlayout.widget.ConstraintLayout>

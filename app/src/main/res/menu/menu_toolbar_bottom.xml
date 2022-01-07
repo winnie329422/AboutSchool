@@ -4,32 +4,39 @@
 
     <item
         android:id="@+id/p1"
-        android:title="AboutSchool"
+        android:title="關於中原"
         android:icon="@drawable/ic_00"
         android:enabled="true"
         app:showAsAction="ifRoom"
         />
     <item
         android:id="@+id/p2"
-        android:title="Department"
-        android:icon="@drawable/ic_00"
+        android:title="系所總覽"
+        android:icon="@drawable/ic_002"
         android:enabled="true"
         app:showAsAction="ifRoom"
         />
     <item
         android:id="@+id/p3"
-        android:title="Map"
-        android:icon="@drawable/ic_00"
+        android:title="系所位置"
+        android:icon="@drawable/ic03"
         android:enabled="true"
         app:showAsAction="ifRoom"
         />
     <item
         android:id="@+id/p4"
-        android:title="Food"
-        android:icon="@drawable/ic_00"
+        android:title="美食推薦指引"
+        android:icon="@drawable/ic_04"
         android:enabled="true"
         app:showAsAction="ifRoom"
         />
+<!--    <item-->
+<!--        android:id="@+id/p5"-->
+<!--        android:title="Test"-->
+<!--        android:icon="@drawable/ic_00"-->
+<!--        android:enabled="true"-->
+<!--        app:showAsAction="ifRoom"-->
+<!--        />-->
 
 
 </menu>

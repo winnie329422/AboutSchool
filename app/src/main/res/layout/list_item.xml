@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_marginTop="30dp"
+    android:paddingVertical="10dp"
+    >
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/department_pic"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:src="@drawable/d01"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="16dp"
+        />
+
+    <TextView
+        android:id="@+id/department_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="資管系"
+        android:textSize="24sp"
+        android:textStyle="bold"
+       android:layout_gravity="center"/>
+
+
+
+</LinearLayout>

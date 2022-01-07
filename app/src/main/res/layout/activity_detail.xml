@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Detail"
+    android:orientation="vertical"
+    android:layout_marginHorizontal="20dp">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/department_image"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/d01"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:id="@+id/d_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="資管系"
+        android:textColor="@color/black"
+        android:textSize="36sp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="30dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="簡介:資訊管理系自76年創立以來，在教師、行政同仁共同努力與歷任系主任積極領導下，系務有長足的發展。以專業師資的教學與研究，服務資管系各級學生的專業與人格成長，平日同學的積極 投入各項學習、服務、與學術活動，俱為資管系持續成長發展的基礎。資管系大學部招生名額目前為97名，碩士班招收名額為27名，碩士在職專班招生名為14名。"
+        android:textSize="20sp"/>
+
+</LinearLayout>

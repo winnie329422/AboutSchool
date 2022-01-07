@@ -9,7 +9,7 @@
     <FrameLayout
         android:id="@+id/frameLayout2"
         android:layout_width="match_parent"
-        android:layout_height="100dp"
+        android:layout_height="80dp"
         android:background="@drawable/background_top00"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -50,7 +50,8 @@
             android:textSize="20sp"
             android:textStyle="bold"
             android:layout_marginTop="50dp"
-            android:layout_marginBottom="8dp"
+            android:layout_marginBottom="20dp"
+            android:layout_marginStart="20dp"
             />
 
         <RadioGroup
@@ -59,14 +60,14 @@
             android:layout_height="wrap_content"
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/txt_call"
-            android:layout_marginBottom="8dp">
+            android:layout_marginBottom="24dp"
+            android:layout_marginStart="20dp">
 
             <RadioButton
                 android:id="@+id/fd01"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textSize="22sp"
-                android:layout_marginStart="16dp"
                 android:text="便當"
                 android:checked="true"/>
             <RadioButton
@@ -74,23 +75,52 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textSize="22sp"
-                android:layout_marginStart="16dp"
                 android:text="拉麵"/>
             <RadioButton
                 android:id="@+id/fd03"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textSize="22sp"
-                android:layout_marginStart="16dp"
                 android:text="丼飯"/>
             <RadioButton
                 android:id="@+id/fd04"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textSize="22sp"
-                android:layout_marginStart="16dp"
                 android:text="哪種都可以"/>
         </RadioGroup>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginHorizontal="20dp"
+            >
+
+            <Button
+                android:id="@+id/btn_random"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/shape_btn01"
+                android:text="隨 機 推 薦"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:layout_marginEnd="20dp"/>
+
+            <Button
+                android:id="@+id/btn_food_road"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/shape_btn01"
+                android:text="查 詢 路 線"
+                android:textStyle="bold"
+                android:textColor="@color/white"/>
+
+        </LinearLayout>
 
         <TextView
             android:layout_width="wrap_content"
@@ -99,8 +129,8 @@
             android:text=""
             android:textSize="0dp"
             android:textStyle="bold"
-            app:layout_constraintLeft_toLeftOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/rg_all" />
+            android:layout_marginTop="36dp"
+            android:layout_marginHorizontal="20dp"/>
 
         <TextView
             android:layout_width="wrap_content"
@@ -108,30 +138,8 @@
             android:id="@+id/txt_resultContent"
             android:text=""
             android:textSize="0dp"
-            app:layout_constraintLeft_toLeftOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/txt_resultTitle"
-            android:layout_marginBottom="0dp" />
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal">
-
-            <Button
-                android:id="@+id/btn_random"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="隨機推薦"/>
-
-            <Button
-                android:id="@+id/btn_food_road"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="查詢路線"/>
-
-        </LinearLayout>
+            android:layout_marginHorizontal="20dp"
+            />
 
     </LinearLayout>
     </ScrollView>
